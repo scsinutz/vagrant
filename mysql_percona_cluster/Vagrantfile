@@ -16,7 +16,7 @@ Vagrant.configure(VAGRANT_API_VERSION) do |config|
         vb.name = servers["name"]
         vb.memory = servers["ram"]
       end
-      srv.vm.provision "shell", path: servers["shell"], args: servers["name"] 
+      srv.vm.provision "shell", path: servers["script"], args: servers["name"] 
     end
   end
 end
