@@ -1,0 +1,18 @@
+- name: mysql-01
+  box: Ubuntu 14.04
+  box_url: https://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-amd64-vagrant-disk1.box
+  ram: 2048
+  ip: 172.17.8.101
+  shell: provision.sh
+- name: mysql-02
+  box: Ubuntu 14.04
+  box_url: https://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-amd64-vagrant-disk1.box
+  ram: 2048
+  ip: 172.17.8.102
+  shell: provision.sh
+- name: mysql-03
+  box: Ubuntu 14.04
+  box_url: https://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-amd64-vagrant-disk1.box
+  ram: 2048
+  ip: 172.17.8.103
+  shell: provision.sh
